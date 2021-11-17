@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="login.css">
+  <title>Login Form</title>
+</head>
+<body>
+  <h1 style="text-align:center; font-size: 4em; background-color: blanchedalmond;"> MANDI <img src="logo.png"></h1>
+  <p  style="text-align:center; margin-top: -10px; margin-left: -10px; font-size: 1em; background-color: blanchedalmond;color: black;">Your one stop for Groceries</p>
+  
+	
+  <section>
+  
+    <div class="box">
+      
+    
+     <div class="container"> 
+      <div class="form" name="loginform"> 
+        <h2>LOGIN to MANDI</h2>
+        <form action="/log_in" method="POST">
+          <div class="inputBx">
+            <input type="text" required="required" name="name" id="name">
+            <span>Login</span>
+            <i class="fas fa-user-circle"></i>
+          </div>
+          <div class="inputBx password">
+            <input id="password-input" type="password" name="password" required="required" name="password" onchange="setname()">
+            <span>Password</span>
+            <a href="#/" class="password-control" onclick="return show_hide_password(this);"></a>
+            <i class="fas fa-key"></i>
+          </div>
+         
+          <div class="inputBx">
+            <input type="submit" value="Log in"  > 
+          </div>
+        </form>
+       
+        <p>Don't have an account? <a href="signup.html">Sign up</a></p>
+      </div>
+    </div>
+      
+    </div>
+  </section>
+  <script src="login.js"></script>
+  <script>
+    function setname()
+    {
+      var x=document.getElementById("name").value;
+      localStorage.setItem("username", x);
+    }
+  </script>
+</body>
+</html>

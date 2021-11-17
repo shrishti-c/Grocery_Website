@@ -1,0 +1,312 @@
+@import url('https://fonts.googleapis.com/css2?family=El+Messiri:wght@700&display=swap');
+*{
+    font-family: 'El Messiri', sans-serif;
+    margin:0; padding:0;
+    box-sizing: border-box;
+    outline: none; border:none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: all .2s linear;
+}
+
+
+.footer-col{
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'El Messiri', sans-serif;
+	line-height: 1.6;
+	margin: 0;
+	min-height: 100vh;
+}
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+h2,h3
+{
+	color: #34495e;
+}
+
+.logo {
+	margin: 0;
+	font-size: 1.45em;
+}
+a{
+	text-decoration: none;
+	color: black;
+}
+.main-nav {
+	margin-top: 5px;
+
+}
+.logo a,
+.main-nav a {
+	padding: 10px 15px;
+	text-transform: uppercase;
+	text-align: center;
+	display: block;
+}
+
+.main-nav a {
+	color: #34495e;
+	font-size: .99em;
+}
+
+.main-nav a:hover {
+	color: #718daa;
+}
+
+
+
+.header {
+  
+	padding-top: .5em;
+	padding-bottom: .5em;
+
+	background-color: white;
+	
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+    position: sticky;
+  
+}
+
+.fas
+{
+    padding: .3rem;
+    height: 2.5rem;
+    width: 4rem;
+    line-height: 2.5rem;
+    border-radius: .5rem;
+    background: #eee;
+    color:black;
+    font-size: 1.5rem;
+    margin-left: .3rem;
+    cursor: pointer;
+    text-align: center;
+}
+
+
+@media (min-width: 769px)
+ {
+	.header,
+	.main-nav {
+		display: flex;
+	}
+	.header
+     {
+		flex-direction: column;
+		align-items: center;
+    			
+		margin: 0 auto;
+		
+	}
+	
+
+}
+
+@media (min-width: 1025px) {
+	.header {
+		flex-direction: row;
+		justify-content: space-between;
+	}
+
+}
+
+body
+main{
+    max-width: 800px;
+    margin: 5vh auto;
+    padding: 20px;
+}
+
+h1{
+    font-size: 2.5em;
+    font-weight: 400;
+    margin-bottom: 40px;
+    color: #707070;
+}
+
+h2{
+    font-size: 1.1em;
+    font-weight: 400;
+    color: #5e5d5d;
+}
+
+.faq{
+    padding: 20px 30px;
+    border: 1px solid rgba(0 0 0 / .1);
+    border-radius: 5px;
+    color: #979797;
+    position: relative;
+    line-height: 1.5em;
+    margin-top: 15px;
+}
+
+.faq .faq_text{
+    width: 90%;
+}
+
+.btn{
+    color: #5e5d5d;
+    position: absolute;
+    right: 25px;
+    top: 35px;
+    font-weight: 400;
+    font-size: 1.4em;
+    cursor: pointer;
+}
+
+/* Hide p tags */
+.faq.open h2{
+    color: #00848f;
+}
+
+.faq p{
+    display: none;
+    font-weight: 300;
+}
+
+.faq.open p{
+    display: block;
+}
+.faq.open .btn{
+    color: #00848f;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+h2,h3
+{
+	color: #34495e;
+}
+
+.logo {
+	margin: 0;
+	font-size: 1.45em;
+}
+
+.main-nav {
+	margin-top: 5px;
+
+}
+.logo a,
+.main-nav a {
+	padding: 10px 15px;
+	text-transform: uppercase;
+	text-align: center;
+	display: block;
+}
+
+.main-nav a {
+	color: #34495e;
+	font-size: .99em;
+}
+
+.main-nav a:hover {
+	color: #718daa;
+}
+
+
+.logo-bar
+{
+    margin-right: 5rem;
+}
+a
+{
+    text-decoration: none;
+}
+
+.containe{
+	max-width: 1170px;
+	margin:auto;
+}
+.row{
+	display: flex;
+	flex-wrap: wrap;
+}
+ul{
+	list-style: none;
+}
+.footer{
+    margin-top: 5em;
+	background-color: #24262b;
+    padding: 40px 0;
+}
+.footer-col{
+   width: 25%;
+   padding: 0 15px;
+}
+.footer-col h4{
+	font-size: 18px;
+	color: #ffffff;
+	text-transform: capitalize;
+	margin-bottom: 35px;
+	font-weight: 500;
+	position: relative;
+}
+.footer-col h4::before{
+	content: '';
+	position: absolute;
+	left:0;
+	bottom: -10px;
+	background-color: #e91e63;
+	height: 2px;
+	box-sizing: border-box;
+	width: 50px;
+}
+.footer-col ul li:not(:last-child){
+	margin-bottom: 10px;
+}
+.footer-col ul li a{
+	font-size: 16px;
+	text-transform: capitalize;
+	color: #ffffff;
+	text-decoration: none;
+	font-weight: 300;
+	color: #bbbbbb;
+	display: block;
+	transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+	color: #ffffff;
+	padding-left: 8px;
+}
+.footer-col .social-links a{
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	background-color: rgba(255,255,255,0.2);
+	margin:0 10px 10px 0;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 50%;
+	color: #ffffff;
+	transition: all 0.5s ease;
+}
+.footer-col .social-links a:hover{
+	color: #24262b;
+	background-color: #ffffff;
+}
+
+/*responsive*/
+@media(max-width: 767px){
+  .footer-col{
+    width: 50%;
+    margin-bottom: 30px;
+}
+}
+@media(max-width: 574px){
+  .footer-col{
+    width: 100%;
+}
+}

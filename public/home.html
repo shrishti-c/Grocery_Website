@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mandi</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Shalimar&display=swap" rel="stylesheet">
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    
+<!-- header section starts  -->
+
+<header class="header">
+
+    <a href="#/" class="logo"> <img src="logo.png" style="width: 3.5em; border-radius: 50%;"></i> <span style="font-size: 1.5em;">MANDI</span> </a>
+
+    <nav class="navbar">
+        <a href="#home">home</a>
+        <a href="#features">features</a>
+        <a href="#categories">categories</a>
+        <a href="./t&c/t&c.html">Terms and Conditions</a>
+        <a href="./faq/faq.html">faq</a>
+    </nav>
+
+    <div class="icons">
+        <div class="fas fa-bars" id="menu-btn"></div>
+        <div class="fas fa-map-marker" id="search-btn"></div>
+       <div class="fas fa-shopping-cart" id="cart-btn"> <a href="cart/cart.html"><span>0</span></a></div>
+        <div class="fas fa-user" id="login-btn"></div>
+    </div>
+
+    
+    <form action="" class="search-form">
+        <label for="location">Choose a location:</label>
+<select name="location" id="location" >
+  <option value="Jalandhar">Jalandhar</option>
+  <option value="Phagwara">Phagwara</option>
+  <option value="Amritsar">Amritsar</option>
+  <option value="Ludhiana">Ludhiana</option>
+</select>
+    </form>
+    <div class="shopping-cart">
+        
+    </div>
+
+    <form action="" class="login-form">
+        <h3 id="intro"> Welcome</h3>
+        <p>Hope you enjoy shopping with us</p>
+        <div class="butto">
+        <button class="inbox"><a href="cart/cart.html">Check Out</a></button>
+        </div>
+       
+    </form>
+
+</header>
+
+<!-- header section ends -->
+
+<!-- home section starts  -->
+
+<section class="home parallax"  id="home">
+
+    <div class="content">
+        <h1>MANDI</h1>
+        <h3>Home's Comfort || Market's Price</h3>
+        <p>Constantly striving to provide best to our customer. Online shopping now made easy with a wide range of products.</p>
+        <p>Trusted by many happy customers and counting!</p>
+      
+        <a href="#categories" class="btn">shop now</a>
+    </div>
+
+</section>
+
+<!-- home section ends -->
+
+<!-- features section starts  -->
+
+<section class="features" id="features">
+    <hr>
+    <h1 style="font-family: 'Shalimar', cursive; font-size: 8em; letter-spacing: 9px;" class="heading"> our features </h1>
+    <hr>
+    <div class="box-container">
+
+        <div class="box">
+            <img src="image/img1.jpg" alt="">
+            <h3>fresh and organic</h3>
+            <p>Grown organically because your health is our priority!</p>
+            
+        </div>
+
+        <div class="box">
+            <img src="image/img2.jpg" alt="">
+            <h3>free delivery</h3>
+            <p>Get the best products from all around our city for free!</p>
+            
+        </div>
+
+        <div class="box">
+            <img src="image/img3.jpg" alt="">
+            <h3>easy payments</h3>
+            <p>Hassle free and different mode of payments supported!</p>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- features section ends -->
+
+<!-- categories section starts  -->
+
+<section class="categories" id="categories">
+    <hr >
+    <h1 style="font-family: 'Shalimar', cursive; font-size: 8em; letter-spacing: 9px;" class="heading"> product categories </h1>
+    <hr >
+
+    <div class="box-container">
+
+        <div class="box">
+            <img src="image/cat-1.png" alt="">
+            <h3>vegetables</h3>
+            <p>Fresh Produce</p>
+            <a href="./products/vegetables/vegetables.html" class="btn">shop now</a>
+        </div>
+
+        <div class="box">
+            <img src="image/cat-2.png" alt="">
+            <h3>fresh fruits</h3>
+            <p>Organically yours</p>
+            <a href="./products/fruits/fruits.html" class="btn">shop now</a>
+        </div>
+
+        <div class="box">
+            <img src="image/cat-3.png" alt="">
+            <h3>dairy products</h3>
+            <p>Protien Pal</p>
+            <a href="./products/dairy/dairy.html" class="btn">shop now</a>
+        </div>
+
+        <div class="box">
+            <img src="image/cat-4.png" alt="">
+            <h3>fresh meat</h3>
+            <p>With care and Hygiene</p>
+            <a href="./products/meat/meat.html" class="btn">shop now</a>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- categories section ends -->
+
+<!--slide-show starts-->
+<section id="offerslide"><hr>
+<h1 style="font-family: 'Shalimar', cursive; font-size: 8em; letter-spacing: 9px;" class="heading">Deal of The Day </h1>
+<hr>
+<div class="slider">
+    <div class="slide active">
+      <img src="meatdeal.jpeg" alt="">
+      </div>
+    <div class="slide">
+      <img src="orangedeal.jpg" alt="">
+      </div>
+    <div class="slide">
+      <img src="staple.jpg" alt="">
+     
+    </div>
+
+    <div class="navigation">
+      <i class="fas fa-chevron-left prev-btn"></i>
+      <i class="fas fa-chevron-right next-btn"></i>
+    </div>
+   
+  </div>
+</section>
+<!--slide show ends-->
+<!-- review section starts  -->
+
+<section class="review" id="review">
+<hr>
+    <h1 style="font-family: 'Shalimar', cursive; font-size: 8em; letter-spacing: 9px;" class="heading"> customer's review </h1>
+    <hr>
+    <div class="swiper review-slider">
+
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide box">
+                <img src="image/pic-1.jpg" alt="">
+                <p>Super convenient to shop with Mandi. Punctual delivery.
+                    25% savings on an average. All products available at single stop so no need to go to different places to buy different items.</p>
+                <h3>Sukhwinder Singh</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="image/pic-2.jpg" alt="">
+                <p>It is an amazing place to purchase vegetables, fruits all kinds of thing that we use in our daily life. Its is the best option to find all such things at one place rather than going from one place to other.</p>
+                                <h3>Diljeet Kaur</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="image/pic-3.jpg" alt="">
+                <p>Nice Services as well they deliver quality .
+                    The best part is the express delivery they have which makes household work so easy .
+                Always prefer Mandi over other online services</p>
+                <h3>Harshdeep Mehra</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="image/pic-4.jpg" alt="">
+                <p>Mandi offers a wide range of options from the various categories that have. Everything from fresh fruits and vegetables, rice and pulses, high-grade meat or cleaning and household products.</p>
+                <h3>Saloni</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- review section ends -->
+
+<!--quotes-->
+<section>
+    
+    <div id="quote">
+      <p> “ Shop according to your<br>
+       Imagination. ”
+       </p>
+    </div>
+    
+</section>
+<!--quotes end-->
+
+<!-- footer section starts  -->
+
+<footer class="footer">
+    <div class="containe">
+        <div class="row">
+            <div class="footer-col">
+                <h4>We Deliever at</h4>
+                <ul>
+                    <li><a href="#/">Jalandhar</a></li>
+                    <li><a href="#/">Phagwara</a></li>
+                    <li><a href="#/">Amritsar</a></li>
+                    <li><a href="#/">Ludhiana</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>get help</h4>
+                <ul>
+                    <li><a href="././faq/faq.html">FAQ</a></li>
+                    <li><a href="#review">Reviews</a></li>
+                    <li><a href="#offerslide">Today's Deal</a></li>
+                    
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Contact Us</h4>
+                <ul>
+                    <li><a href="#/">Phone: 123 456</a></li>
+                    <li><a href="#/">Email: mandi@gmail.com</a></li>
+                    <li><a href="#/">Address:</a></li>
+                    <li><a href="#/">Phagwara, Punjab</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>follow us</h4>
+                <div class="social-links">
+                    <a href="#/"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#/"><i class="fab fa-twitter"></i></a>
+                    <a href="#/"><i class="fab fa-instagram"></i></a>
+                    <a href="#/"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+    
+
+
+<!-- footer section ends -->
+
+
+
+
+
+<button
+        type="button"
+        class="btn btn-danger btn-floating btn-lg"
+        id="btn-back-to-top"
+        >
+        <i class="fas fa-angle-double-up"></i>
+</button>
+
+
+
+
+
+
+
+
+
+<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+<!-- custom js file link  -->
+<script src="script.js"></script>
+<script src="cart/cart.js"></script>
+
+</body>
+</html>

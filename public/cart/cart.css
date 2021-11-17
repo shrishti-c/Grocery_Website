@@ -1,0 +1,254 @@
+@import url('https://fonts.googleapis.com/css2?family=El+Messiri:wght@700&display=swap');
+
+
+body {
+	font-family: 'El Messiri', sans-serif;
+	line-height: 1.6;
+	margin: 0;
+	min-height: 100vh;
+  
+}
+a{
+    text-decoration:none;
+    color: black;
+}#cart-button
+{
+    margin-right: -100px;
+}
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.products{
+   
+    height: 100px;
+    width: 100px;
+    /*background-image: url("empty-cart.png");*/
+}
+h2,h3
+{
+	color: #34495e;
+}
+
+.logo {
+	margin: 0;
+	font-size: 1.45em;
+}
+
+.main-nav {
+	margin-top: 5px;
+
+}
+.logo a,
+.main-nav a {
+	padding: 10px 15px;
+	text-transform: uppercase;
+	text-align: center;
+	display: block;
+}
+
+.main-nav a {
+	color: #34495e;
+	font-size: .99em;
+}
+
+.main-nav a:hover {
+	color: #718daa;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=El+Messiri:wght@700&display=swap');
+.header {
+  
+	padding-top: .5em;
+	padding-bottom: .5em;
+	background-color: white;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+    position: sticky;
+  
+}
+
+.fas
+{
+    padding: .3rem;
+    height: 2.5rem;
+    width: 2.5rem;
+    line-height: 2.5rem;
+    border-radius: .5rem;
+    font-size: 1.5rem;
+    margin-left: .3rem;
+    cursor: pointer;
+    text-align: center;
+}
+
+
+@media (min-width: 769px)
+ {
+	.header,
+	.main-nav {
+		display: flex;
+	}
+	.header
+     {
+		flex-direction: column;
+		align-items: center;
+    			
+		margin: 0 auto;
+		
+	}
+	
+
+}
+
+@media (min-width: 1025px) {
+	.header {
+		flex-direction: row;
+		justify-content: space-between;
+	}
+
+}
+
+/* ----------------- CART PAGE --------------- */
+
+.container-products {
+    max-width: 650px;
+    justify-content: space-around;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.container-products ion-icon {
+    font-size: 25px;
+    color: blue;
+    margin-left: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.product-header {
+    width: 100%;
+    max-width: 650px;
+    display: flex;
+    justify-content: flex-start;
+    border-bottom: 4px solid lightgray;
+    margin: 0 auto;
+}
+
+.product-title {
+    width: 45%;
+}
+
+.price {
+    width: 15%;
+    border-bottom: 1px solid lightgray;
+    display: flex;
+    align-items: center;
+}
+h1{
+    margin: 50px 0;
+    text-align: center;
+}
+.quantity {
+    width: 30%;
+    border-bottom: 1px solid lightgray;
+    display: flex;
+    align-items: center;
+}
+
+.total {
+    width: 10%;
+    border-bottom: 1px solid lightgray;
+    display: flex;
+    align-items: center;
+}
+
+.paynow
+{
+    font-family: 'El Messiri', sans-serif;
+    padding: .2em;
+    font-size: 2em;
+    float: right;
+    border: 1px solid black;
+    margin-bottom: 10px;
+    background: white;
+    transition: 1s;
+    margin-bottom: 40px;
+    cursor: pointer;
+}
+
+.paynow:hover
+{
+    background: rgb(2, 185, 79);
+    
+}
+.product {
+    width: 45%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 1px solid lightgray;
+}
+
+.product ion-icon {
+    cursor: pointer;
+    
+}
+
+.products {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.products img {
+    width: 75px;
+}
+
+.basketTotalContainer {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    padding: 10px 0;
+}
+
+.basketTotalTitle {
+    width: 30%;
+}
+
+.basketTotal {
+    width: 10%;
+}
+
+@media(max-width: 500px) {
+    nav h2 {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 10px;;
+    }
+
+    .sm-hide {
+        display: none;;
+    }
+
+    .products,
+    .product-header {
+        justify-content: center;
+    }
+
+    .basketTotalContainer {
+        padding-right: 8%;
+    }
+}
+
+#btn-back-to-top {
+    background: rgb(2, 185, 79);
+    border-color: whitesmoke;
+    color: whitesmoke;
+   position: fixed;
+   bottom: 20px;
+   right: 20px;
+   display: none;
+ }

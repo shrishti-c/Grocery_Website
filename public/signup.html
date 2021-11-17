@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="signup.css">
+  <title>Signup</title>
+</head>
+<body>
+
+
+
+  <h1 style="text-align:center; font-size: 4em; background-color: blanchedalmond;"> MANDI <img src="logo.png"></h1>
+  <p  style="text-align:center; margin-top: -10px; margin-left: -10px; font-size: 1em; background-color: blanchedalmond;color: black;">Your one stop for Groceries</p>
+  <section>
+	
+    <div class="box">
+    
+     <div class="container">
+		
+      <div class="form" id="form" > 
+        <h2>SIGNUP FOR MANDI</h2>
+<div id="error"></div>
+        <form  action="/sign_up" method="POST">
+          <div class="inputBx">
+            <input type="text" required="required" name="name" id="name">
+            <span>Name</span>
+            <i class="fas fa-user-circle"></i>
+          </div>
+		  <div class="inputBx">
+            <input type="email" required="required" name="email" id="email">
+            <span>E-mail</span>
+            <i class="fas fa-user-circle"></i>
+          </div>
+		  <div class="inputBx">
+            <input type="tel" required="required" name="phoneno" id="phoneno" pattern="[0-9]{10}">
+            <span>Phone No.</span>
+            <i class="fas fa-user-circle"></i>
+          </div>
+	        <div class="inputBx password">
+            <input id="password-input" type="password" required="required" name="pass" id="pass">
+            <span>Password</span>
+            <a href="#/" class="password-control" onclick="return show_hide_password(this);"></a>
+            <i class="fas fa-key"></i>
+          </div>
+          
+          <div class="inputBx">
+            <input type="submit" value="Sign Up" /> 
+          </div>
+        </form>
+       
+        <p>Already have a account?  <a href="login.html">Log in</a></p>
+      </div>
+    </div>
+      
+    </div>
+  </section>
+ 
+  
+  <script src="signup.js"></script>
+  
+</script>
+</body>
+</html>
