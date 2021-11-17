@@ -128,7 +128,9 @@ body
     flex-direction: row;
     align-items: center;
 }
-
+.container .box{
+	flex-basis: 20%;
+}
 .btns{
     display: block;
     text-align: center;

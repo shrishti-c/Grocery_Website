@@ -183,6 +183,9 @@ body{
 	display: flex;
 	flex-wrap: wrap;
 }
+.container .box{
+	flex-basis: 20%;
+}
 ul{
 	list-style: none;
 }
