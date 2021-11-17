@@ -1,3 +1,4 @@
+![Screenshot (111)](https://user-images.githubusercontent.com/73748606/142195434-c9c107de-4b3b-4d8c-9bd3-538b3bc0be2f.png)
 #About
 An online Grocery Store permits a customer to submit online orders for items and/or services from a store that serves both walk-in customers and online customers. 
 
