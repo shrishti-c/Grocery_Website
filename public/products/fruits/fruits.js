@@ -4,31 +4,31 @@ let product= [
     {
         tag:"guava",
         name:"Guava",
-        price:45,
+        price:35,
         inCart:0
     }, 
     {
         tag:"apple",
         name:"Apple",
-        price:45,
+        price:120,
         inCart:0
     },
     {
         tag:"avacado",
         name:"Avacado",
-        price:45,
+        price:260,
         inCart:0
     },
     {
         tag:"cherry",
         name:"Cherry",
-        price:45,
+        price:145,
         inCart:0
     },
     {
         tag:"mango",
         name:"Mango",
-        price:45,
+        price:120,
         inCart:0
     }, 
     
@@ -39,13 +39,13 @@ let product= [
     },
     {tag:"orange",
         name:"Orange",
-        price:45,
+        price:90,
         inCart:0
     },
     {
         tag:"pomegranate",
         name:"Pomegranate",
-        price:45,
+        price:180,
         inCart:0
     }
    

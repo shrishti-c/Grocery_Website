@@ -4,49 +4,45 @@ let product= [
    {
         tag:"butter",
         name:"Butter",
-        price:45,
+        price:150,
         inCart:0
     },
     {tag:"chocolatecake",
         name:"Chocolate Cake",
-        price:45,
+        price:250,
         inCart:0
     },
     {tag:"cheese",
         name:"Cheese",
-        price:45,
+        price:180,
         inCart:0
     },
     {tag:"chocolate",
         name:"Chocolate",
-        price:45,
+        price:350,
         inCart:0
     },
     {tag:"whippedcream",
         name:"Whipped Cream",
-        price:45,
+        price:240,
         inCart:0
     },
     {tag:"icecream",
         name:"Ice Cream",
-        price:45,
+        price:210,
         inCart:0
     },
     {tag:"milk",
         name:"Milk",
-        price:45,
+        price:44,
         inCart:0
     },
     {tag:"mousse",
         name:"Mousse",
-        price:45,
-        inCart:0
-    },
-    {tag:"bacon",
-        name:"Bacon",
-        price:45,
+        price:50,
         inCart:0
     }
+   
     
 ];
 

@@ -150,21 +150,7 @@ section {
       color: #fff;
     }
     
-    span {
-        position: absolute;
-        left: 30px;
-        padding: 10px;
-        display: inline-block;
-        color: #fff;
-        transition: .5s;
-        pointer-events: none;
-      }
     
-    input:focus ~ span,
-    input:valid ~ span {
-      transform: translateX(-30px) translateY(-25px);
-      font-size: 12px;
-    }
   
   
   p {

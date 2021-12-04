@@ -3,42 +3,42 @@ let product= [
     
     {tag:"bacon",
         name:"Bacon",
-        price:45,
+        price:450,
         inCart:0
     },
     {tag:"meat",
         name:"Meat",
-        price:45,
+        price:320,
         inCart:0
     },
     {tag:"shrimp",
         name:"Shrimp",
-        price:45,
+        price:400,
         inCart:0
     },
     {tag:"fishmeat",
         name:"Fish Meat",
-        price:45,
+        price:220,
         inCart:0
     },
     {tag:"chickenmeat",
         name:"Chicken Meat",
-        price:45,
+        price:350,
         inCart:0
     },
     {tag:"brownegg",
         name:"Brown Egg",
-        price:45,
+        price:10,
         inCart:0
     },
     {tag:"whiteegg",
         name:"White Egg",
-        price:45,
+        price:10,
         inCart:0
     },
     {tag:"beef",
         name:"Beef",
-        price:45,
+        price:120,
         inCart:0
     }
 ];

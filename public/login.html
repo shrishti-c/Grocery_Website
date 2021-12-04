@@ -20,15 +20,15 @@
      <div class="container"> 
       <div class="form" name="loginform"> 
         <h2>LOGIN to MANDI</h2>
-        <form action="/log_in" method="POST">
+        <form autocomplete="off" action="/log_in" method="POST">
           <div class="inputBx">
-            <input type="text" required="required" name="name" id="name">
-            <span>Login</span>
+            <input type="text" placeholder="Name" required="required" name="name" id="name">
+            
             <i class="fas fa-user-circle"></i>
           </div>
           <div class="inputBx password">
-            <input id="password-input" type="password" name="password" required="required" name="password" onchange="setname()">
-            <span>Password</span>
+            <input id="password-input" placeholder="Password" type="password" name="password" required="required" name="password" onchange="setname()">
+          
             <a href="#/" class="password-control" onclick="return show_hide_password(this);"></a>
             <i class="fas fa-key"></i>
           </div>

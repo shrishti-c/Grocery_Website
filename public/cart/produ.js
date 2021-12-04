@@ -2,13 +2,13 @@ let product= [
     {
         tag:"prod1",
         name:"Brinjal",
-        price:45,
+        price:60,
         incart:0
     },
     {
         tag:"prod2",
         name:"Broccoli",
-        price:45,
+        price:110,
         incart:0
     },
     {
@@ -20,61 +20,61 @@ let product= [
     {
         tag:"celery",
         name:"celery",
-        price:45,
+        price:80,
         incart:0
     },
     {
         tag:"prod5",
         name:"Lettuce",
-        price:45,
+        price:60,
         incart:0
     },
     {
         tag:"prod6",
         name:"Potato",
-        price:45,
+        price:25,
         incart:0
     },
     {
         tag:"prod7",
         name:"Cauliflower",
-        price:45,
+        price:40,
         incart:0
     },
     {
         tag:"prod8",
         name:"Cucumber",
-        price:45,
+        price:35,
         incart:0
     },
     {
         tag:"prod9",
-        name:"Orange",
-        price:45,
+        name:"Guava",
+        price:35,
         incart:0
     }, 
     {
         tag:"prod10",
         name:"Apple",
-        price:45,
+        price:120,
         incart:0
     },
     {
         tag:"prod11",
         name:"Avacado",
-        price:45,
+        price:260,
         incart:0
     },
     {
         tag:"prod12",
         name:"Cherry",
-        price:45,
+        price:145,
         incart:0
     },
     {
         tag:"prod13",
         name:"Mango",
-        price:45,
+        price:120,
         incart:0
     }, 
     
@@ -85,94 +85,94 @@ let product= [
     },
     {tag:"prod15",
         name:"Orang",
-        price:45,
+        price:90,
         incart:0
     },
     {
         tag:"prod16",
         name:"Pomegranate",
-        price:45,
+        price:180,
         incart:0
     },
     {
         tag:"prod17",
         name:"Butter",
-        price:45,
+        price:150,
         incart:0
     },
     {tag:"prod18",
         name:"Cake",
-        price:45,
+        price:250,
         incart:0
     },
     {tag:"prod19",
         name:"Cheese",
-        price:45,
+        price:180,
         incart:0
     },
     {tag:"prod20",
         name:"Chocolate",
-        price:45,
+        price:350,
         incart:0
     },
     {tag:"prod21",
         name:"Whipped Cream",
-        price:45,
+        price:240,
         incart:0
     },
     {tag:"prod22",
         name:"Ice-Cream",
-        price:45,
+        price:210,
         incart:0
     },
     {tag:"prod23",
         name:"Milk",
-        price:45,
+        price:44,
         incart:0
     },
     {tag:"prod24",
         name:"Mousse",
-        price:45,
+        price:50,
         incart:0
     },
     {tag:"prod25",
         name:"Bacon",
-        price:45,
+        price:450,
         incart:0
     },
     {tag:"prod26",
         name:"Meat",
-        price:45,
+        price:320,
         incart:0
     },
     {tag:"prod27",
         name:"Shrimp",
-        price:45,
+        price:400,
         incart:0
     },
     {tag:"prod28",
         name:"Fish-Meat",
-        price:45,
+        price:220,
         incart:0
     },
     {tag:"prod29",
         name:"Chicken Meat",
-        price:45,
+        price:350,
         incart:0
     },
     {tag:"prod30",
         name:"Brown-Egg",
-        price:45,
+        price:10,
         incart:0
     },
     {tag:"prod31",
         name:"White Egg",
-        price:45,
+        price:10,
         incart:0
     },
     {tag:"prod32",
         name:"Beef",
-        price:45,
+        price:120,
         incart:0
     }
 ]

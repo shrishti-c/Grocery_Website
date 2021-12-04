@@ -4,13 +4,13 @@ let product= [
     {
         tag:"brinjal",
         name:"Brinjal",
-        price:45,
+        price:60,
         inCart:0
     },
     {
         tag:"broccoli",
         name:"Broccoli",
-        price:45,
+        price:110,
         inCart:0
     },
     {
@@ -22,31 +22,31 @@ let product= [
     {
         tag:"celery",
         name:"celery",
-        price:45,
+        price:80,
         inCart:0
     },
     {
         tag:"lettuce",
         name:"Lettuce",
-        price:45,
+        price:60,
         inCart:0
     },
     {
         tag:"potato",
         name:"Potato",
-        price:45,
+        price:25,
         inCart:0
     },
     {
         tag:"cauliflower",
         name:"Cauliflower",
-        price:45,
+        price:40,
         inCart:0
     },
     {
         tag:"cucumber",
         name:"Cucumber",
-        price:45,
+        price:35,
         inCart:0
     }
 ];
